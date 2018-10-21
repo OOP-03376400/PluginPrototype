@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="Plugin7.UserControl1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <Ellipse Height="100" HorizontalAlignment="Left" Margin="139,54,0,0" Name="ellipse1" VerticalAlignment="Top" Width="100" OpacityMask="#5E000000" Stroke="Black" Fill="Lime"></Ellipse>
+        <Ellipse Height="100" HorizontalAlignment="Left" Margin="81,54,0,0" Name="ellipse2" VerticalAlignment="Top" Width="100" OpacityMask="#5E000000" Stroke="Black" Fill="Red"></Ellipse>
+        <Ellipse Height="100" HorizontalAlignment="Left" Margin="110,105,0,0" Name="ellipse3" VerticalAlignment="Top" Width="100" OpacityMask="#5E000000" Stroke="Black" Fill="Blue"></Ellipse>
+    </Grid>
+</UserControl>
