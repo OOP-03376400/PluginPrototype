@@ -68,13 +68,13 @@ namespace Plugin1
             // 
             // txtFile
             // 
-            this.txtFile.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtFile.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtFile.Location = new System.Drawing.Point(8, 16);
             this.txtFile.Multiline = true;
             this.txtFile.Name = "txtFile";
-            this.txtFile.Size = new System.Drawing.Size(456, 328);
+            this.txtFile.Size = new System.Drawing.Size(799, 450);
             this.txtFile.TabIndex = 0;
             // 
             // butOpenFile
@@ -82,7 +82,7 @@ namespace Plugin1
             this.butOpenFile.ActiveLinkColor = System.Drawing.Color.Blue;
             this.butOpenFile.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.butOpenFile.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
-            this.butOpenFile.Location = new System.Drawing.Point(16, 352);
+            this.butOpenFile.Location = new System.Drawing.Point(16, 474);
             this.butOpenFile.Name = "butOpenFile";
             this.butOpenFile.Size = new System.Drawing.Size(112, 16);
             this.butOpenFile.TabIndex = 1;
@@ -96,7 +96,7 @@ namespace Plugin1
             this.butSaveFile.ActiveLinkColor = System.Drawing.Color.Blue;
             this.butSaveFile.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.butSaveFile.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
-            this.butSaveFile.Location = new System.Drawing.Point(392, 352);
+            this.butSaveFile.Location = new System.Drawing.Point(735, 474);
             this.butSaveFile.Name = "butSaveFile";
             this.butSaveFile.Size = new System.Drawing.Size(72, 16);
             this.butSaveFile.TabIndex = 2;
@@ -117,7 +117,7 @@ namespace Plugin1
             this.Controls.Add(this.butOpenFile);
             this.Controls.Add(this.txtFile);
             this.Name = "ctlMain";
-            this.Size = new System.Drawing.Size(488, 376);
+            this.Size = new System.Drawing.Size(831, 498);
             this.Load += new System.EventHandler(this.ctlMain_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
